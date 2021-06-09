@@ -1,4 +1,5 @@
-{  "type": "minecraft:crafting_shaped",
+{
+  "type": "minecraft:crafting_shaped",
   "pattern": [
     "xxx",
     " y ",
@@ -14,6 +15,24 @@
   },
   "result": {
     "item": "minecraft:diamond_pickaxe",
+    "count": 1
+  },
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xxx",
+    " y "
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:iron_block"
+    },
+    "y": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "examplemod:lightninghammer",
     "count": 1
   }
 }
