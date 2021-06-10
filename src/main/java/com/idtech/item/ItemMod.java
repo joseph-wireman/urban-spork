@@ -44,6 +44,16 @@ public class ItemMod {
 
 
         // ARMOR
+        event.getRegistry().register(CustomArmorItem.HELM);
+        event.getRegistry().register(CustomArmorItem.BOOTS);
+        event.getRegistry().register(CustomArmorItem.CHEST);
+        event.getRegistry().register(CustomArmorItem.LEGS);
+
+
+
+
+
+
 
     }
 }
