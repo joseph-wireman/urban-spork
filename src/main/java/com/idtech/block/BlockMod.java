@@ -18,17 +18,28 @@ public class BlockMod {
     public static final Block CASTLE_WALL = BlockUtils.createBasicBlock("castlewall", Material.ROCK, 0.5f, 0.9f, ToolType.PICKAXE);
     public static final Item CASTLE_WALL_ITEM = BlockUtils.createBlockItem(CASTLE_WALL, ItemGroup.MISC);
 
+    public static final Block GEL_ORE_BLOCK = BlockUtils.createBasicBlock("geloreblock", Material.ROCK, 0.5f, 0.6f, ToolType.PICKAXE);
+    public static final Item GEL_ORE_BLOCK_ITEM = BlockUtils.createBlockItem(GEL_ORE_BLOCK, ItemGroup.MISC);
+
 
     @SubscribeEvent
     public static void registerBlockItems(RegistryEvent.Register<Item> event) {
 
+        event.getRegistry().register(GEL_ORE_BLOCK_ITEM);
+
+
         event.getRegistry().register(CASTLE_WALL_ITEM);
+        event.getRegistry().register(RubberBlock.ITEM);
+        event.getRegistry().register(CreeperSurpriseBlock.ITEM);
+
 
     }
 
     @SubscribeEvent
     public static void registerBlocks(RegistryEvent.Register<Block> event) {
-
+        event.getRegistry().register(GEL_ORE_BLOCK);
+        event.getRegistry().register(RubberBlock.INSTANCE);
+        event.getRegistry().register(CreeperSurpriseBlock.INSTANCE);
         event.getRegistry().register(CASTLE_WALL);
 
 

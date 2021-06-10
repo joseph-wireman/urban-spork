@@ -4,6 +4,8 @@
   "item.examplemod.gelore": "Gel Ore",
   "item.examplemod.yummyfood": "Pan Cakes",
   "item.examplemod.teleportrod": "Teleport Rod",
-  "item.examplemod.gelaxe": "Gel Axe"
-
+  "item.examplemod.gelaxe": "Gel Axe",
+  "item.examplemod.lightninghammer": "Lightning Hammer",
+  "item.examplemod.geloreblock": "Gel Ore Block",
+  "block.examplemod.creeper_surprise_block": "Creeper Block"
 }
