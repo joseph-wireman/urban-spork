@@ -137,6 +137,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/black_carpet": {
+    "criteria": {
+      "has_black_wool": "2021-06-10 17:14:29 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/coal_block": {
     "criteria": {
       "has_coal": "2021-06-08 16:54:30 -0400"
@@ -152,6 +158,12 @@
   "minecraft:recipes/transportation/spruce_boat": {
     "criteria": {
       "in_water": "2021-06-08 15:38:55 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_axe": "2021-06-10 17:12:38 -0400"
     },
     "done": true
   },
@@ -218,6 +230,18 @@
   "minecraft:recipes/building_blocks/cobblestone_slab": {
     "criteria": {
       "has_cobblestone": "2021-06-08 15:46:03 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_banner": {
+    "criteria": {
+      "has_black_wool": "2021-06-10 17:14:29 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2021-06-10 17:57:11 -0400"
     },
     "done": true
   },
@@ -293,6 +317,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2021-06-11 15:14:07 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/andesite_stairs_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2021-06-08 15:54:01 -0400"
@@ -345,6 +375,9 @@
     "criteria": {
       "minecraft:forest": "2021-06-08 15:39:00 -0400",
       "minecraft:mountains": "2021-06-10 14:57:35 -0400",
+      "minecraft:jungle": "2021-06-11 17:20:04 -0400",
+      "minecraft:jungle_hills": "2021-06-11 17:20:17 -0400",
+      "minecraft:dark_forest": "2021-06-11 17:19:50 -0400",
       "minecraft:river": "2021-06-08 15:38:17 -0400",
       "minecraft:wooded_hills": "2021-06-08 15:46:01 -0400",
       "minecraft:plains": "2021-06-07 17:14:35 -0400"
@@ -453,6 +486,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/black_bed": {
+    "criteria": {
+      "has_black_wool": "2021-06-10 17:14:29 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2021-06-08 15:46:03 -0400"
@@ -501,6 +540,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2021-06-10 17:57:11 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_carpet": {
     "criteria": {
       "has_white_wool": "2021-06-08 15:46:14 -0400"
@@ -516,6 +561,12 @@
   "minecraft:recipes/decorations/granite_wall_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2021-06-08 16:54:08 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_axe": "2021-06-10 17:12:38 -0400"
     },
     "done": true
   },
@@ -564,6 +615,12 @@
   "minecraft:recipes/decorations/soul_campfire": {
     "criteria": {
       "has_stick": "2021-06-09 13:47:16 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2021-06-10 17:57:11 -0400"
     },
     "done": true
   },

@@ -49,11 +49,5 @@ public class ItemMod {
         event.getRegistry().register(CustomArmorItem.CHEST);
         event.getRegistry().register(CustomArmorItem.LEGS);
 
-
-
-
-
-
-
     }
 }

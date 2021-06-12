@@ -1,8 +1,9 @@
 package com.idtech;
 
 import com.idtech.block.*;
-import com.idtech.entity.EntityMod;
+import com.idtech.entity.*;
 import com.idtech.item.*;
+import com.idtech.world.WorldMod;
 import net.minecraft.block.Block;
 import net.minecraft.entity.EntityType;
 import net.minecraft.item.Item;
@@ -27,6 +28,7 @@ public class BaseMod {
     // Change your modid here. Whenever modid is needed, use BaseMod.MODID
     public static final String MODID = "examplemod";
     public static final Logger LOGGER = LogManager.getLogger(BaseMod.MODID);
+
 
     /**
      * Registers block during mod setup
@@ -56,7 +58,6 @@ public class BaseMod {
         BlockMod.registerBlockItems(event);
         EntityMod.registerEntityEggs(event);
 
-        //EGGS
 
     }
 
@@ -79,6 +80,7 @@ public class BaseMod {
         BaseMod.LOGGER.info("Registering Biomes");
         // Add biome registry calls here
         // event.getRegistry.register(<biome variable>)
+        WorldMod.registerBiomes(event);
 
     }
 
@@ -92,7 +94,12 @@ public class BaseMod {
         // Add rendering registry entries here.
         // RenderingRegistry.registerEntityRenderingHandler(<entity type>, <render factory>);
         EntityMod.entityRenderers();
+//        RenderingRegistry.registerEntityRenderingHandler(ZomboEntityO.TYPE, ZomboRenderFactory.INSTANCE);
+//        RenderingRegistry.registerEntityRenderingHandler(ZomboBearEntity.TYPE, ZomboBearRenderFactory.INSTANCE);
+
+
     }
+
 
 
     /**
@@ -102,9 +109,9 @@ public class BaseMod {
     @SubscribeEvent
     public static void setup(FMLCommonSetupEvent event){
         // Do any mod setup steps here. Occurs after all registry events.
-        // Put biome manager registry stuff here.
+        // Put biome manager registry blocks here.
         BaseMod.LOGGER.info("Mod Setup Step");
-
+        WorldMod.setupBiomes();
 
     }
 

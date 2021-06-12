@@ -22,6 +22,7 @@ public class BlockMod {
     public static final Item GEL_ORE_BLOCK_ITEM = BlockUtils.createBlockItem(GEL_ORE_BLOCK, ItemGroup.MISC);
 
 
+
     @SubscribeEvent
     public static void registerBlockItems(RegistryEvent.Register<Item> event) {
 
@@ -31,7 +32,7 @@ public class BlockMod {
         event.getRegistry().register(CASTLE_WALL_ITEM);
         event.getRegistry().register(RubberBlock.ITEM);
         event.getRegistry().register(CreeperSurpriseBlock.ITEM);
-
+        event.getRegistry().register(CreepingMoldBlock.ITEM);
 
     }
 
@@ -41,9 +42,10 @@ public class BlockMod {
         event.getRegistry().register(RubberBlock.INSTANCE);
         event.getRegistry().register(CreeperSurpriseBlock.INSTANCE);
         event.getRegistry().register(CASTLE_WALL);
-
-
+        event.getRegistry().register(CreepingMoldBlock.INSTANCE);
     }
+
+
 }
 
 

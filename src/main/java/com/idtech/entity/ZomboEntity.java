@@ -1,7 +1,4 @@
 package com.idtech.entity;
-
-
-
 import com.idtech.BaseMod;
 import com.idtech.Utils;
 import net.minecraft.entity.*;
@@ -70,12 +67,11 @@ public class ZomboEntity extends ZombieEntity {
         this.targetSelector.addGoal(3, new MeleeAttackGoal(this, 0.8f, false));
         this.targetSelector.addGoal(4, (new HurtByTargetGoal(this)).setCallsForHelp(ZomboEntity.class));
         this.targetSelector.addGoal(8, new LookRandomlyGoal(this));
-
     }
 
     //turn off the burn in day thing. to turn it back on either remove this, or return true.
     protected boolean shouldBurnInDay() {
-        return false;
+        return true;
     }
 
     //make it ride a polar bear!
@@ -86,9 +82,7 @@ public class ZomboEntity extends ZombieEntity {
         spawnDataIn = super.onInitialSpawn(worldIn, difficultyIn, reason, spawnDataIn, null);
 
         int random = this.world.rand.nextInt(100);
-
         if(random<10){
-
             //spawn in the polar bear and start to ride it.
             PolarBearEntity polarbear = (PolarBearEntity) Utils.spawnEntity(world, EntityType.POLAR_BEAR, this.getPositionUnderneath());
             this.startRiding(polarbear);

@@ -12,7 +12,7 @@ public class CustomArmorItem extends ArmorItem {
 
     //armor material creation!
     private static IArmorMaterial customMaterial = ItemUtils.buildArmorMaterial("gelore", 22, new int[]{10,10,10,10} ,5,
-            SoundEvents.ITEM_BUCKET_EMPTY_LAVA, 4.0f, 0.3f,"examplemod:gelore");
+            SoundEvents.ITEM_CHORUS_FRUIT_TELEPORT, 4.0f, 0.3f,"examplemod:gelore");
 
     //properties
     private static Properties properties = new Properties().group(ItemGroup.COMBAT);

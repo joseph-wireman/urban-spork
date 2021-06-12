@@ -15,6 +15,7 @@ public class RubberBlock extends Block{
     public static Block INSTANCE = new RubberBlock(properties).setRegistryName(BaseMod.MODID,"rubber_block");
     public static Item ITEM = BlockUtils.createBlockItem(INSTANCE, ItemGroup.MISC);
     public RubberBlock(Properties properties){super(properties);}
+
     @Override
     public void onEntityWalk(World worldIn, BlockPos posIn, Entity entityIn) {
         super.onEntityWalk(worldIn, posIn, entityIn);
