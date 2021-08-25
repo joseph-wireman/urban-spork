@@ -1,38 +1,38 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "xxx",
-    " y ",
-    " y "
+    "#CH",
+    "SKM",
+    "EKA"
   ],
   "key": {
-    "x": {
-      "item": "examplemod:structuregel"
+    "#": {
+      "item": "minecraft:beef"
     },
-    "y": {
-      "item": "minecraft:stick"
+    "C": {
+      "item": "minecraft:cooked_beef"
+    },
+    "H": {
+      "item": "minecraft:cooked_chicken"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "K": {
+      "item": "minecraft:spider_eye"
+    },
+    "M": {
+      "item": "minecraft:melon_slice"
+    },
+    "E": {
+      "item": "minecraft:egg"
+    },
+    "A": {
+      "item": "minecraft:cake"
     }
   },
   "result": {
-    "item": "minecraft:diamond_pickaxe",
-    "count": 1
-  },
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "xxx",
-    "xxx",
-    " y "
-  ],
-  "key": {
-    "x": {
-      "item": "minecraft:iron_block"
-    },
-    "y": {
-      "item": "minecraft:stick"
-    }
-  },
-  "result": {
-    "item": "examplemod:lightninghammer",
+    "item": "examplemod:zoosword",
     "count": 1
   }
 }

@@ -12,4 +12,6 @@ public class GelAxeItem extends AxeItem {
         super(tier, attackDamageIn, attackSpeedIn, properties);
 
     }
+
+
 }

@@ -8,9 +8,7 @@ import net.minecraft.util.ResourceLocation;
 
 public class ZomboRenderer extends ZombieRenderer {
 
-    public ZomboRenderer(EntityRendererManager manager) {
-        super(manager);
-    }
+    public ZomboRenderer(EntityRendererManager manager) {super(manager);}
 
     @Override
     public ResourceLocation getEntityTexture(ZombieEntity entity) {

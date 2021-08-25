@@ -7,5 +7,14 @@
   "item.examplemod.gelaxe": "Gel Axe",
   "item.examplemod.lightninghammer": "Lightning Hammer",
   "item.examplemod.geloreblock": "Gel Ore Block",
-  "block.examplemod.creeper_surprise_block": "Creeper Block"
+  "block.examplemod.creeper_surprise_block": "Creeper Block",
+  "block.examplemod.creepingmold": "Creeping Mold",
+  "item.examplemod.plasticingot": "Plastic Ingot",
+  "item.examplemod.zoosword": "Zoo Sword",
+  "item.examplemod.rubber": "Rubber",
+  "block.example.rubberblockx": "Rubber Block X",
+  "item.examplemod.tape": "Tape",
+  "item.examplemod.gelshovel": "Gel Shovel",
+  "block.examplemod.foodblock": "Steak Block"
+
 }

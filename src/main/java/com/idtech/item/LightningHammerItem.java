@@ -11,8 +11,6 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
 public class LightningHammerItem extends Item {
-
-
     //static instance for registration
     private static Properties properties = new Properties().group(ItemGroup.MISC).maxStackSize(1);
     public static Item INSTANCE = new LightningHammerItem(properties).setRegistryName("lightninghammer");
@@ -24,8 +22,8 @@ public class LightningHammerItem extends Item {
     @Override
     public ActionResult<ItemStack> onItemRightClick(World worldIn, PlayerEntity playerIn, Hand handIn) {
         ItemStack itemstack = playerIn.getHeldItem(handIn);
-        BlockPos location = Utils.getBlockAtCursor(playerIn, 20.0d, true);
-        float explosionRadius = 0.5f;
+        BlockPos location = Utils.getBlockAtCursor(playerIn, 1000, true);
+        float explosionRadius = 20.0f;
         if(location != null){
             Utils.createExplosion(worldIn, location, explosionRadius);
             Utils.strikeLightning(worldIn, location);

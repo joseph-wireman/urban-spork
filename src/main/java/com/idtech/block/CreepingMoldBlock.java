@@ -18,31 +18,24 @@ import java.util.Random;
 
 public class CreepingMoldBlock extends Block {
 
-    //static variables for registration
+
     private static Properties properties = Properties.create(Material.ROCK).harvestTool(ToolType.PICKAXE).tickRandomly();
 
     public static Block INSTANCE = new CreepingMoldBlock(properties).setRegistryName(BaseMod.MODID,"creepingmold");
     public static Item ITEM = BlockUtils.createBlockItem(INSTANCE, ItemGroup.MISC);
 
-    //constructor
     public CreepingMoldBlock(Properties properties){
         super(properties);
-
     }
 
-    //method to do something on game tick
     @Override
     public void randomTick(BlockState block, ServerWorld world, BlockPos pos, Random p_225534_4_) {
         super.randomTick(block, world, pos, p_225534_4_);
 
-        //find a random neighboring block position
         BlockPos blockPos = Utils.findNeightborBlock(pos);
-
         if (blockPos != null){
-            //set the block at that position to this block
             world.setBlockState(blockPos, this.getDefaultState());
 
         }
-
     }
 }

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##S"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:quartz_pillar"
+    },
+    "S": {
+      "item": "minecraft:smooth_quartz"
+    }
+  },
+  "result": {
+    "item": "examplemod:tape",
+    "count": 1
+  }
+}
