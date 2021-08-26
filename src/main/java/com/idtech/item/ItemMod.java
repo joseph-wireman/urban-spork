@@ -60,6 +60,7 @@ public class ItemMod {
         event.getRegistry().register(RubberSwordItem.INSTANCE);
         event.getRegistry().register(GelShovelItem.INSTANCE);
         event.getRegistry().register(GelHoeItem.INSTANCE);
+        event.getRegistry().register(LauncherItem.INSTANCE);
 
 
         // FOOD
@@ -74,8 +75,9 @@ public class ItemMod {
         // ARMOR
         event.getRegistry().register(CustomArmorItem.HELM);
         event.getRegistry().register(CustomArmorItem.BOOTS);
-        event.getRegistry().register(CustomArmorItem.CHEST);
-        event.getRegistry().register(CustomArmorItem.LEGS);
+        event.getRegistry().register(CustomArmorItem.TORSO);
+        event.getRegistry().register(CustomArmorItem.PANTS);
+
 
     }
 }

@@ -2,6 +2,7 @@ package com.idtech.block;
 
 import com.idtech.BaseMod;
 import com.idtech.Utils;
+import com.idtech.world.WorldMod;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.entity.Entity;

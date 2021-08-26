@@ -167,6 +167,12 @@
     },
     "done": true
   },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2021-08-26 11:05:33 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
     "criteria": {
       "has_stone": "2021-06-17 12:41:44 -0400"
@@ -1193,17 +1199,23 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:jungle_edge": "2021-06-17 16:20:47 -0400",
+      "minecraft:cold_ocean": "2021-08-26 11:05:56 -0400",
       "minecraft:forest": "2021-06-08 15:39:00 -0400",
       "minecraft:mountains": "2021-06-10 14:57:35 -0400",
+      "minecraft:taiga": "2021-08-26 10:05:24 -0400",
+      "minecraft:desert_hills": "2021-08-26 11:13:44 -0400",
+      "minecraft:desert": "2021-08-26 11:05:49 -0400",
       "minecraft:jungle": "2021-06-11 17:20:04 -0400",
       "minecraft:birch_forest": "2021-07-13 14:34:01 -0400",
       "minecraft:jungle_hills": "2021-06-11 17:20:17 -0400",
+      "minecraft:beach": "2021-08-26 11:06:04 -0400",
       "minecraft:dark_forest": "2021-06-11 17:19:50 -0400",
       "minecraft:river": "2021-06-08 15:38:17 -0400",
       "minecraft:birch_forest_hills": "2021-07-13 14:44:46 -0400",
       "minecraft:wooded_mountains": "2021-06-17 16:46:09 -0400",
       "minecraft:wooded_hills": "2021-06-08 15:46:01 -0400",
       "minecraft:swamp": "2021-07-13 14:34:04 -0400",
+      "minecraft:savanna": "2021-08-26 11:05:53 -0400",
       "minecraft:plains": "2021-06-07 17:14:35 -0400"
     },
     "done": false

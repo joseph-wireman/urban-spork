@@ -15,6 +15,7 @@
   "block.example.rubberblockx": "Rubber Block X",
   "item.examplemod.tape": "Tape",
   "item.examplemod.gelshovel": "Gel Shovel",
-  "block.examplemod.foodblock": "Steak Block"
+  "block.examplemod.foodblock": "Steak Block",
+  "block.examplemod.xpblock": "XP Spawner"
 
 }

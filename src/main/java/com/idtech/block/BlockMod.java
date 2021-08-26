@@ -41,6 +41,9 @@ public class BlockMod {
         event.getRegistry().register(CreepingMoldBlock.ITEM);
         event.getRegistry().register(PLASTIC_BLOCK_ITEM);
         event.getRegistry().register(RUBBER_BLOCKX_ITEM);
+        event.getRegistry().register(ExperienceSpawnerBlock.ITEM);
+
+
 
     }
 
@@ -55,6 +58,7 @@ public class BlockMod {
         event.getRegistry().register(CreepingMoldBlock.INSTANCE);
         event.getRegistry().register(PLASTIC_BLOCK);
         event.getRegistry().register(RUBBER_BLOCKX);
+        event.getRegistry().register(ExperienceSpawnerBlock.INSTANCE);
     }
 }
 
