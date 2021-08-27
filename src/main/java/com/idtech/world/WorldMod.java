@@ -9,12 +9,18 @@ public class WorldMod {
 
     public static void registerBiomes(final RegistryEvent.Register<Biome> event){
         event.getRegistry().register(ObsidianHillsBiome.INSTANCE);
+        event.getRegistry().register(LavaPlainsBiome.INSTANCE);
 
     }
     public static void setupBiomes(){
         BiomeDictionary.addTypes(ObsidianHillsBiome.INSTANCE, BiomeDictionary.Type.DRY, BiomeDictionary.Type.OVERWORLD);
         BiomeManager.addBiome(BiomeManager.BiomeType.DESERT, new BiomeManager.BiomeEntry(ObsidianHillsBiome.INSTANCE, 500));
         BiomeManager.addSpawnBiome(ObsidianHillsBiome.INSTANCE);
+
+        BiomeDictionary.addTypes(LavaPlainsBiome.INSTANCE, BiomeDictionary.Type.DRY, BiomeDictionary.Type.OVERWORLD);
+        BiomeManager.addBiome(BiomeManager.BiomeType.DESERT, new BiomeManager.BiomeEntry(LavaPlainsBiome.INSTANCE,500));
+        BiomeManager.addSpawnBiome(LavaPlainsBiome.INSTANCE);
+
 
     }
 }

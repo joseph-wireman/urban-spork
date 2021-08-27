@@ -61,6 +61,7 @@ public class ItemMod {
         event.getRegistry().register(GelShovelItem.INSTANCE);
         event.getRegistry().register(GelHoeItem.INSTANCE);
         event.getRegistry().register(LauncherItem.INSTANCE);
+        event.getRegistry().register(TntLauncher.INSTANCE);
 
 
         // FOOD

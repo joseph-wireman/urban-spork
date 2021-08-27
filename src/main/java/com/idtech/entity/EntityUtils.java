@@ -11,6 +11,8 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.SpawnEggItem;
 import net.minecraft.world.World;
+import net.minecraft.world.biome.Biome;
+import net.minecraftforge.registries.ForgeRegistries;
 import org.apache.commons.lang3.ObjectUtils;
 
 import java.lang.reflect.InvocationTargetException;
@@ -65,6 +67,12 @@ public class EntityUtils {
 
         return ammma;
 
+    }
+
+    protected static void spawnMobs(EntityType<?> entityType, EntityClassification classification, int weight, int min, int max){
+        ForgeRegistries.BIOMES.getValues().stream().forEach(biome -> {
+            biome.getSpawns(classification).add(new Biome.SpawnListEntry(entityType,weight,min,max));
+        });
     }
 
     public static AttributeModifierMap.MutableAttribute addAttributes(boolean isZombie){
